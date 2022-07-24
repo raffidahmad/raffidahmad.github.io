@@ -1,0 +1,22 @@
+.container{
+display: flex;
+height: 680px;
+width: 317px;
+background: #1A1B21;
+flex-direction: column;
+align-items: center;
+margin: auto;
+border-radius: 0px 0px 10px 10px;
+
+}
+
+.cardBody{
+width: 317px;
+height: 370px;
+left: 116px;
+top: 361px;
+}
+
+.userData{
+
+}
