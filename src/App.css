@@ -1,5 +1,6 @@
 .main{
+    height: auto;
+    padding-bottom: 50px;
     background-color: #23252C;
-    height: 800px;
-   padding-top: 20px;
 }
+

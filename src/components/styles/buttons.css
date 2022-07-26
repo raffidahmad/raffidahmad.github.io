@@ -1,4 +1,5 @@
 .buttons{
     display: flex;
+    width: 289px;
     justify-content: space-around;
 }

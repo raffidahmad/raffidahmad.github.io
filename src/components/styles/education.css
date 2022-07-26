@@ -1,0 +1,10 @@
+.histpage{
+display: flex;
+flex-direction: column;
+margin: auto;
+width: 950px;
+padding-top: 50px;
+padding-bottom: 10px;
+border-radius: 18px;
+background-color: white;
+}

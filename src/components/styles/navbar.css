@@ -1,0 +1,99 @@
+ .myNavBar {
+   background-color: gray;
+   display: flex;
+   justify-content: center;
+
+   height: 80px;
+
+ }
+
+ .headNav {
+   padding-bottom: 40px;
+ }
+
+ .myNavLinks {
+   list-style-type: none;
+   display: flex;
+   background-color: gray;
+   justify-content: space-around;
+   width: 750px;
+   padding-top: 20px;
+   padding-bottom: 40px;
+   padding-right: 50px;
+   padding-left: 50px;
+
+
+
+ }
+
+ .myNavLinks>li {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+ /*.myNavLinks {
+    list-style-type: none;
+    display: flex;
+    background-color: #EEEEEE;
+    justify-content: space-around;
+    width: 600px;
+    height: 60px;
+    margin: auto 0;
+    border-radius: 10px;
+
+    box-shadow: rgb(38, 57, 77) 0px 15px 20px -10px;
+}
+
+.myNavLinks>li {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.myNavLinks>li>button {
+    padding: 6px 14px;
+    border-radius: 6px;
+    color: #3D3D3D;
+    background: #EEEEEE;
+    border: none;
+    box-shadow: 0px 0.5px 1px rgba(0.1, 0.2, 0.3, 0.5);
+} */
+
+ /* CSS */
+ .button-74 {
+   background-color: #fbeee0;
+   border: 2px solid #422800;
+   border-radius: 30px;
+   box-shadow: #422800 4px 4px 0 0;
+   color: #422800;
+   cursor: pointer;
+   display: inline-block;
+   font-weight: 600;
+   font-size: 18px;
+   padding: 0 18px;
+   line-height: 50px;
+   text-align: center;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+
+ .button-74:hover {
+   background-color: #fff;
+ }
+
+ .button-74:active {
+   box-shadow: #422800 2px 2px 0 0;
+   transform: translate(2px, 2px);
+ }
+
+ @media (min-width: 768px) {
+   .button-74 {
+     min-width: 120px;
+     padding: 0 25px;
+   }
+ }

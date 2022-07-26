@@ -1,0 +1,82 @@
+.history-Container{
+    display: flex;
+    margin: auto;
+    width: auto;
+    height: auto;
+   padding-bottom: 40px;
+    background-color: white;
+}
+.sub{
+    display: flex;
+    margin: auto;
+}
+.card-right{
+   width: 600px;
+   padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.loc-name{
+    display: flex;
+    width: 360px;
+    justify-content: space-around;
+    align-items:center ;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+a {
+    color: #918E9B;
+    text-decoration: underline;
+    font-size: 15px;
+    padding-left: 30px;
+}
+.pic{
+width: 220px;
+height: 280px;
+border-radius: 8px;
+}
+.card-body{
+    display: absolute;
+    top:20px;
+    
+} 
+
+/*title*/
+.card-body>h1{  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #2B283A;
+    margin: 0;
+}
+
+/*date*/
+.card-body>h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #2B283A;
+    margin-top: 10px;
+}
+
+
+.card-body>p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B283A;
+}
+
+
+
+
